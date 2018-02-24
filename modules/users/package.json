@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "@vue-jsonapi-with-modules/users-module",
+  "version": "0.0.0",
+  "author": "Joao Bueno <joaobbn@gmail.com> (github.com/jbbn)",
+  "scripts": {
+    "dev": "concurrently --kill-others \"yarn dev:app\" \"yarn dev:api\"",
+    "dev:app": "poi app/dev/ --port 4000",
+    "dev:api": "PORT=3000 nodemon ./api/dev"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^3.1.0",
+    "jsonapi-handler-rest": "^0.2.0",
+    "jsonapi-server": "^4.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.15.1",
+    "poi": "^9.6.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}

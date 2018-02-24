@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "@vue-jsonapi-with-modules/hello-placeholder",
+  "version": "0.0.0",
+  "author": "Joao Bueno <joaobbn@gmail.com> (github.com/jbbn)",
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "poi --port 4000",
+    "build": "ENV=production poi build"
+  },
+  "devDependencies": {
+    "@vue-jsonapi-with-modules/hello-world": "^0.0.0",
+    "@vue-jsonapi-with-modules/posts-module": "^0.0.0",
+    "@vue-jsonapi-with-modules/users-module": "^0.0.0",
+    "poi": "^9.6.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "lerna": "2.9.0",
+  "packages": [
+    "components/*",
+    "modules/*",
+    "packages/*"
+  ],
+  "version": "independent",
+  "commands": {
+    "publish": {
+      "ignore": [
+        "*.md",
+        "test/**"
+      ]
+    }
+  },
+  "npmClient": "yarn"
+}
